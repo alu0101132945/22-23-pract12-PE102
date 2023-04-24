@@ -1,0 +1,25 @@
+{
+	"exclude": [
+		"./tests",
+		"./node_modules",
+		"./dist"
+	],
+	"compilerOptions": {
+		"target": "es2022",
+		"module": "Node16",
+		"rootDir": "./src",
+		"declaration": true,
+		"outDir": "./dist",
+		"strict": false,
+	},
+	"typedocOptions":{
+		"entryPoints": [
+			"./src/ejercicio-funko/funko.ts",
+			"./src/ejercicio-funko/usuario.ts",
+			"./src/ejercicio-funko/tipos.ts"
+
+		],
+		"out": "./docs"
+	}
+}
+
